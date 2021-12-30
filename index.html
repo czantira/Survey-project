@@ -8,10 +8,28 @@
 </head>
 <body>
     
-    <h1 id="title"></h1>
-    <p></p>
+    <h1 id="title">What Futbol Soccer Team you go for?</h1>
+    <p id="description">This test is in order to know which soccer team is more popular.</p>
 
+    <form action="" id="survey-form">
+        <label for="" id="name"> Add your name: 
+            <input type="text" placeholder="Enter your name" required>
+        </label> 
+        <label for="" id="email">Add your email:
+            <input type="text" placeholder="Add your email" pattern=".+@.+" required>
+        </label>
+        <label for="" id="number">Add your phone number:
+            <input type="tel" placeholder="Add a phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" min="000000000" max="999999999">
+        </label>
 
+        <p>
+            <li><label for="" id="name-label">The name areas is for us to know who is submitting the address.</label></li>
+            <li><label for="" id="email-label">The email area is for us to be able to contact you in case we need some more information and the results of this queez.</label></li>
+            <li><label for="" id="number-label">The number is as well to be able to contact you back.</label></li>
+        </p>
+
+        
+    </form>
 
 </body>
 </html>
